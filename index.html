@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elder Scrolls APP</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&family=Sen&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Guide to Skyrim: Elder Scrolls Playable Races</h1>
+    </header>
+
+    <main id="banner">
+      <p>
+        When creating your character on Skyrim: Elder Scrolls, it is vital to
+        know the basic facts and characteristics about the race you will choose
+        to play the game. Enter the race name of your potential character (or
+        foe) to obtain information about them.
+      </p>
+
+      <p>
+        Playable Races include:<br />
+        Nord, Khajiit, Altmer, Argonian, Bosmer, Breton, Dunmer, Imperial,
+        Orsimer, and Redguard.
+      </p>
+
+      <h2>Enter the name of the Elder Scrolls Playable Race below</h2>
+    </main>
+
+    <section id="input">
+      <input class="center-block" type="text" />
+      <button class="center-block">Click to get info</button>
+    </section>
+
+    <section id="race-img">
+      <img src="" alt="race-image" class="center-block" id="raceImage" />
+      <p class="caption" id="raceCaption">Photo</p>
+    </section>
+
+    <section class="race-info">
+      <ul class="race-output">
+        <li><span>Race Name: </span><span id="raceName"></span></li>
+        <li><span>Known As: </span> <span id="knownAs"></span></li>
+        <li><span>Homeland: </span> <span id="homeland"></span></li>
+        <li><span>Unique Skills: </span> <span id="uniqueSkills"></span></li>
+        <li>
+          <span>Starting Spells: </span> <span id="startingSpells"></span>
+        </li>
+        <li><span>Unique Power: </span> <span id="uniquePower"></span></li>
+        <li><span>Unique Effects: </span> <span id="uniqueEffects"></span></li>
+        <li><span>Survival Mode: </span> <span id="survivalMode"></span></li>
+        <li><span>History: </span> <span id="history"></span></li>
+      </ul>
+    </section>
+  </body>
+  <script src="main.js"></script>
+</html>

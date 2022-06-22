@@ -1,0 +1,157 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+      background-color: rgb(0, 0, 0);
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      background-image: url('img/darkSkyrimBG3.webp');
+      background-repeat: fill no-repeat;  
+      background-size: cover;
+       
+  }
+
+  header h1 {
+      background-blend-mode:difference;
+      display: grid;
+      background: white;
+      color: rgb(2, 2, 2);
+      text-align: center;
+      background-color: rgba(109, 46, 46, 0.4);
+      margin: 15px 25px 25px 25px;
+      font-family: 'Aclonica', sans-serif;
+  }
+
+/* banner and app info section*/
+
+  #banner {
+      color: rgb(240, 231, 231);
+      background-color: rgba(0, 0, 0, 0.276);
+      display: grid;
+      margin: 0 25px 25px 25px;
+      font-size: 16px;
+      text-align: center;  
+      font-family: 'Aclonica', sans-serif;
+      font-family: 'Sen', sans-serif; 
+    }
+
+    p {
+        text-align: center;
+        padding: 5px 50px;
+    }
+
+/* input, photo and button section */
+
+  #input input{
+      display: block;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px; 
+      font-family: 'Aclonica', sans-serif;
+      font-family: 'Sen', sans-serif; 
+  }
+
+  #input button{
+      background-color: rgba(109, 46, 46, 0.4);
+      border: none;
+      color: rgb(240, 231, 231);
+      padding: 15px 25px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      font-family: 'Aclonica', sans-serif;
+      font-family: 'Sen', sans-serif;
+  }
+
+  .center-block {
+      margin: auto;
+      display: block;     
+  }
+
+  #race-img {
+    display:grid;
+    color:rgba(199, 192, 192, 0.4);
+    margin-top: 25px; 
+  }
+
+  #raceCaption{
+    font-family: 'Aclonica', sans-serif;
+    font-family: 'Sen', sans-serif;
+    color: rgb(240, 231, 231);
+  }
+  
+
+  .race-info {
+      display: flexbox;
+      text-align: left;
+      background-color: rgba(0, 0, 0, 0.836);
+      margin: 10px 25px 10px 25px;
+      padding: 20px;
+  }
+  
+ ul li {
+      list-style: none;
+      color: rgb(108, 70, 70);
+      display: grid;
+      font-family: 'Aclonica', sans-serif;
+      font-family: 'Sen', sans-serif;
+  }
+
+  #raceName {
+      color: white;
+  }
+  #knownAs {
+      color: white;
+  }
+  #homeland {
+      color: white;
+  }
+  #uniqueSkills {
+      color: white;
+  }
+  #startingSpells{
+      color: white;
+  }
+  #uniquePower {
+      color: white;
+  }
+  #uniqueEffects{
+      color: white;
+  }
+  #survivalMode {
+      color: white;
+  }
+  #history {
+      color: white;
+  }
+
+
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
